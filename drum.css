@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+    padding-top: 20px;
+}
+
+li{
+    padding-top:10px;
+}
+
+img{
+    width:40px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.key-pics{
+    width: 100%;
+    padding: 10px;
+    display:inline-flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#container{
+    display:inline-flex;
+}
+
+#drum-pic{
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+    margin:100px;
+}
+
+#title{
+    color:#CC2D0B;
+}
+
+#keys{
+    background-color: black;
+    color: white;
+    padding-top:5px;
+    margin: 10px;
+    width: 225px;
+}

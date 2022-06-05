@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="drum.css">
+</head>
+<body>
+    <h1 id="title">JavaScript Drum Kit</h1>
+    <div id="container">
+        <div id="keys">
+            <h4>Key Mappings</h4>
+            <ul id="key-mappings">
+                <div class="key-pics" id="crash-key">
+                    <img src="/pics/e.png">
+                    <li>Crash</li>
+                    <audio id="crash-snd" src="/sounds/crash-cymbal-sound-c-sharp-key-07-T4H.wav" preload="auto"></audio>
+                    <button id="e-btn" hidden>E</button>
+                </div>
+                <div class="key-pics" id="ride-key">
+                    <img src="/pics/r.png">
+                    <li>Ride</li>
+                    <button id="r-btn" hidden>R</button>
+                </div>
+                <div class="key-pics" id="floor-tom-key">
+                    <img src="/pics/f.png">
+                    <li>Floor tom</li>
+                    <button id="f-btn" hidden>F</button>
+                </div>
+                <div class="key-pics" id="mid-tom-key">
+                    <img src="/pics/g.png">
+                    <li>Mid tom</li>
+                    <button id="g-btn" hidden>G</button>
+                </div>
+                <div class="key-pics" id="high-tom-key">
+                    <img src="/pics/h.png">
+                    <li>High tom</li>
+                    <button id="h-btn" hidden>H</button>
+                </div>
+                <div class="key-pics" id="kick-key">
+                    <img src="/pics/v.png">
+                    <img src="/pics/b.png">
+                    <li>Kick</li>
+                    <button id="v-btn" hidden>V</button>
+                    <button id="b-btn" hidden>B</button>
+                </div>
+                <div class="key-pics" id="snare-key">
+                    <img src="/pics/j.png">
+                    <li>Snare</li>
+                    <button id="j-btn" hidden>J</button>
+                </div>
+                <div class="key-pics" id="hi-hat-open-key">
+                    <img src="/pics/i.png">
+                    <li>Hi-Hat Open</li>
+                    <button id="i-btn" hidden>I</button>
+                </div>
+                <div class="key-pics" id="hi-hat-closed-key">
+                    <img src="/pics/k.png">
+                    <li>Hi-Hat Closed</li>
+                    <button id="k-btn" hidden>K</button>
+                </div>        
+            </ul>   
+        </div>
+        <img src="/pics/drum.png" id="drum-pic">
+    </div>
+    <script src="drum.js"></script>
+</body>
+</html>
